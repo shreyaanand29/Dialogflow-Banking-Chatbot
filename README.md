@@ -1,7 +1,11 @@
 Conversational Bot for Banks
+
 Authors: Shreya Anand 
+
 Visibility: Across Alphabet 
+
 Originally Proposed: 2021-06-15 / Last Updated: 2021-08-18
+
 Objective
 A conversational bot for the banking sector which aims at tackling the customer acquisition and retention use-case by providing 24X7 support to customers enabling them to perform common banking tasks anytime and anywhere. Built using Dialogflow and integrated with Google assistant, the aim is to provide customers with  seamless banking experience and at the same time, save the banking staff from conversational overhead with the customers.
 Requirements
