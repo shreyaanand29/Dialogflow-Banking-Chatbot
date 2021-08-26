@@ -1,1 +1,1 @@
-Dialogflow-Banking-Chatbot
+Refer the readme.txt file
