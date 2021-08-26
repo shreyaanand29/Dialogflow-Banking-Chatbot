@@ -1,1 +1,1 @@
-Refer the readme.txt file
+Refer the README.docx file
