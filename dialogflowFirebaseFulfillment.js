@@ -82,12 +82,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
           } else {
             var current_balance = doc.data().balance;
             var to_deposit = agent.parameters.amount;
-            var t = firebase.firestore.Timestamp.fromDate(new Date());
+            // var t = firebase.firestore.Timestamp.fromDate(new Date());
             db.collection("bank_accounts")
               .doc(id)
               .update({
                 balance: current_balance + to_deposit,
-                last_transaction: t,
+                // last_transaction: t,
               })
               .catch((error) => {
                 console.log("Transaction failure:", error);                
